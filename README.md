@@ -6,3 +6,4 @@
     CompInterface 接口,比较大小
     ThreadTest 多线程
     Singleton 单例模式
+    FinallyTest try..catch..finally测试
