@@ -7,4 +7,7 @@
     ThreadTest 多线程
     Singleton 单例模式
     FinallyTest try..catch..finally测试
+#应用
     MoneyFormat 金钱格式转换
+    Hanoi 河内塔问题
+    ThreeColorsFlags 三色旗问题(如, 输入:RWBBWRWR; 输出:BBWWWRRR)
