@@ -14,3 +14,4 @@
     Knapsack 背包问题
     ShuffleCard 洗扑克牌
     Prime 求质数
+    Craps 投骰子游戏
