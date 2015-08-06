@@ -11,3 +11,5 @@
     MoneyFormat 金钱格式转换
     Hanoi 河内塔问题
     ThreeColorsFlags 三色旗问题(如, 输入:RWBBWRWR; 输出:BBWWWRRR)
+    Knapsack 背包问题
+    ShuffleCard 洗扑克牌
