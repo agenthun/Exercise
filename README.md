@@ -8,6 +8,7 @@
     Singleton 单例模式
     FinallyTest try..catch..finally测试
     HashMapTest HashMap测试
+    CollectionsTest Collections测试
 #应用
     MoneyFormat 金钱格式转换
     Hanoi 河内塔问题
