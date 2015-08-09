@@ -5,6 +5,7 @@
     MaxMin 不用比较求最大值,最小值
     CompInterface 接口,比较大小
     ThreadTest 多线程
+    RunnableTest 多线程Thread, Runnable, Callable测试
     Singleton 单例模式
     FinallyTest try..catch..finally测试
     HashMapTest HashMap测试

@@ -1,4 +1,4 @@
-package com.agenthun;
+package com.agenthun.app;
 
 import java.io.IOException;
 
