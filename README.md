@@ -7,6 +7,9 @@
     ThreadTest 多线程
     RunnableTest 多线程Thread, Runnable, Callable测试
     ThreadStopTest 终止线程
+    SynchronizedAndLockTest Synchronized, Lock测试(最好不同时使用)
+    ThreadDaemonTest 守护线程测试
+    ThreadJoinTest join()方法测试
     Singleton 单例模式
     FinallyTest try..catch..finally测试
     HashMapTest HashMap测试
