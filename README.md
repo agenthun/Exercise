@@ -23,6 +23,4 @@
     Prime 求质数
     Craps 投骰子游戏
     MaxVisit 最大访客数计算
-#LeetCode
-    TwoSum 找(无序数组里)两个数相加为特定数
 
