@@ -14,6 +14,7 @@
     FinallyTest try..catch..finally测试
     HashMapTest HashMap测试
     CollectionsTest Collections测试
+    IplusTest 测试i=i++
 #Java Web
     DomTest 以DOM方式解析XML
     SaxTest 以SAX方式解析XML
