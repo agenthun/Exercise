@@ -16,6 +16,7 @@
     CollectionsTest Collections测试
     IplusTest 测试i=i++
     FileIOTest 文件操作测试
+    Add 符号优先级
 #Java Web
     DomTest 以DOM方式解析XML
     SaxTest 以SAX方式解析XML
