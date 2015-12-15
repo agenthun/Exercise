@@ -1,5 +1,6 @@
 #Exercise
     Exercise with Java
+    TestLoglikelihoodRatio 美团推荐系统 - 相似度计算
 #List
     DeleteBracket 删除括号
     MaxMin 不用比较求最大值,最小值
