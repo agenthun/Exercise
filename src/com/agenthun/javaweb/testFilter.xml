@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" class="ua-mac ua-webkit book-new-nav">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>
+            豆瓣-排行榜
+        </title>
+
+
+        <script>!function(f){var h=function(o,n,m){var k=new
+            Date(),j,l;n=n||30;m=m||"/";k.setTime(k.getTime()+(n*24*60*60*1000));j="; expires="+k.toGMTString();for(l in
+            o){f.cookie=l+"="+o[l]+j+"; path="+m}},d=function(m){var
+            l=m+"=",o,n,j,k=f.cookie.split(";");for(n=0,j=k.length;n<j;n++){o=k[n].replace(/^\s+|\s+$/g,"");if(o.indexOf(l)==0){return
+            o.substring(l.length,o.length).replace(/\"/g,"")}}return
+            null},e=f.write,b={"douban.com":1,"douban.fm":1,"google.com":1,"google.cn":1,"googleapis.com":1,"gmaptiles.co.kr":1,"gstatic.com":1,"gstatic.cn":1,"google-analytics.com":1,"googleadservices.com":1},a=function(l,k){var
+            j=new Image();j.onload=function(){};j.src="http://www.douban.com/j/except_report?kind=ra022&
+            reason="+encodeURIComponent(l)+"&
+            environment="+encodeURIComponent(k)},i=function(k){try{e.call(f,k)}catch(j){e(k)}},c=/<script.
+            *?src\=["']?([^"'\s>]+)/ig,g=/http:\/\/(.+?)\.([^\/]+).+/i;f.writeln=f.write=function(k){var
+            j=c.exec(k),l;if(!j){i(k);return}l=g.exec(j[1]);if(!l){i(k);return}if(b[l[2]]){i(k);return}if(d("hj")==="tqs"){return}a(j[1],location.href);h({hj:"tqs"},1);setTimeout(function(){location.replace(location.href)},50)}}(document);
+        </script>
+
+
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+
+        <script>var _head_start = new Date();</script>
+
+        <link href="http://img3.douban.com/f/book/6f63509c00746da106a7cf170459335a11dadc6e/css/book/master.css"
+              rel="stylesheet" type="text/css">
+
+        <style type="text/css"></style>
+        <script src="http://img3.douban.com/f/book/e9d9543ebc06f2964039a2e94898f84ce77fc070/js/book/lib/jquery/jquery.js"></script>
+        <script src="http://img3.douban.com/f/book/a7eb4cf2dc0fdb270c9252dd6b12cb307a1f9361/js/book/master.js"></script>
+
+
+        <link href="http://img3.douban.com/f/book/a5932b73c4e079bc08e83e71076c575d0a762552/css/book/book_chart.css"
+              rel="stylesheet"/>
+
+        <script></script>
+        <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/5109d2450e25c1b3.css">
+
+        <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+
+        <script>var _body_start = new Date();</script>
+
+
+        <div id="db-global-nav" class="global-nav">
+            <div class="bd">
+
+
+                <div class="top-nav-info">
+
+                    <a href="http://www.douban.com/accounts/login?source=book" class="nav-login" rel="nofollow">登录</a>
+                    <a href="http://www.douban.com/accounts/register?source=book" class="nav-register" rel="nofollow">
+                        注册
+                    </a>
+                </div>
+
+
+                <div class="top-nav-doubanapp">
+
+                    <a href="http://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+                    <div id="top-nav-appintro" class="more-items">
+                        <p class="appintro-title">豆瓣
+                            <span>3.0</span>
+                        </p>
+                        <p class="slogan">和有趣的人做有趣的事</p>
+                        <p class="qrcode">
+                            扫码直接下载
+                        </p>
+                        <div class="download">
+                            <a href="http://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=iOS">
+                                iPhone
+                            </a>
+                            <span>·</span>
+                            <a href="http://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=Android"
+                               class="download-android">Android
+                            </a>
+                        </div>
+                    </div>
+                    <div id="doubanapp-tip">
+                        <a href="http://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">豆瓣 3.0 全新发布</a>
+                        <a href="javascript: void 0;" class="tip-close">×</a>
+                    </div>
+                </div>
+
+                <div class="global-nav-items">
+                    <ul>
+
+
+                        <li class="">
+                            <a href="http://www.douban.com/" target="_blank"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-main&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                豆瓣
+                            </a>
+                        </li>
+
+
+                        <li class="on">
+                            <a href="http://book.douban.com/"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-book&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                读书
+                            </a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="http://movie.douban.com/" target="_blank"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-movie&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                电影
+                            </a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="http://music.douban.com/" target="_blank"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-music&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                音乐
+                            </a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="http://www.douban.com/location/" target="_blank"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-location&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                同城
+                            </a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="http://www.douban.com/group/" target="_blank"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-group&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                小组
+                            </a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-read&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                阅读
+                            </a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="http://douban.fm/" target="_blank"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-fm&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                FM
+                            </a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="http://dongxi.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-commodity&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                东西
+                            </a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="http://market.douban.com/" target="_blank"
+                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-market&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                市集
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#more" class="bn-more">
+                                <span>更多</span>
+                            </a>
+                            <div class="more-items">
+                                <table cellpadding="0" cellspacing="0">
+
+                                    <tr>
+                                        <td>
+                                            <a href="http://moment.douban.com" target="_blank"
+                                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-moment&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                                一刻
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <a href="http://ypy.douban.com" target="_blank"
+                                               data-moreurl-dict="{&#34;from&#34;:&#34;top-nav-click-ypy&#34;,&#34;uid&#34;:&#34;0&#34;}">
+                                                一拍一
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="db-nav-book" class="nav">
+            <div class="nav-wrap">
+                <div class="nav-primary">
+                    <div class="nav-logo">
+                        <a href="http://book.douban.com">豆瓣读书</a>
+                    </div>
+                    <div class="nav-search">
+                        <form action="http://book.douban.com/subject_search" method="get">
+                            <fieldset>
+                                <legend>搜索：</legend>
+                                <label for="inp-query">书名、作者、ISBN</label>
+                                <div class="inp">
+                                    <input id="inp-query" name="search_text" size="22" maxlength="60"
+                                           value="">
+                                </div>
+                                <div class="inp-btn">
+                                    <input type="submit" value="搜索">
+                                </div>
+                                <input type="hidden" name="cat" value="1001">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-secondary">
+
+                <ul class="nav-items">
+                    <li
+                            class="nav-item-first"
+                    >
+                        <a href="http://book.douban.com/tag/">分类浏览</a>
+                    </li>
+
+                    <li class="book-cart ">
+                        <a href="http://book.douban.com/cart">购书单</a>
+                    </li>
+                    <li>
+                        <a href="http://read.douban.com/ebooks/?dcs=book-nav&amp;dcm=douban" target="_blank">电子图书</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <script type="text/template" id="suggest-item">
+            <li class="item">
+                <a href="#">{{= item}}</a>
+            </li>
+        </script>
+
+
+        <div id="wrapper">
+
+
+            <div id="content">
+
+                <h1>最受关注图书榜</h1>
+
+                <div class="grid-16-8 clearfix">
+
+                    <div class="article">
+
+
+                        <div class="clear"></div>
+                        <div class="xbar">
+                            <div>
+
+                                <span class="now">
+                                    <span>虚构类作品榜</span>
+                                </span>
+                                <a href="?subcat=I">非虚构类作品榜</a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+
+                        <ul class="chart-dashed-list">
+
+                            <li class="media clearfix">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">1</strong>
+                                    <a href="http://book.douban.com/subject/26320883/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img4.douban.com/spic/s28295328.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26320883/">丈量世界</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜20天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        [德] 丹尼尔‧凯曼 / 2015-10-1 / 南海出版公司 / 39.50 / 精装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar40 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">7.8</span>
+                                        <span class="fleft ml8 color-gray">(330人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26320883/buylinks">
+                                                纸质版 29.60 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="media clearfix">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">2</strong>
+                                    <a href="http://book.douban.com/subject/26647727/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img4.douban.com/spic/s28325507.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26647727/">手机里的男朋友</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜6天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        方慧 / 2015-11 / 北京联合出版公司 / 38.00 / 平装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar45 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">8.3</span>
+                                        <span class="fleft ml8 color-gray">(397人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26647727/buylinks">
+                                                纸质版 22.80 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                        <div class="ebook-link">
+                                            <a target="_blank"
+                                               href="http://read.douban.com/ebook/16692077/?dcs=shire-book-chart&amp;dcm=douban&amp;dct=26647727">
+                                                去看电子版
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="media clearfix">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">3</strong>
+                                    <a href="http://book.douban.com/subject/26593670/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img3.douban.com/spic/s28286370.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26593670/">天鹅绒监狱</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜1天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        [匈牙利] 米克洛什·哈拉兹蒂 / 2015-11 / 三辉图书/中央编译出版社 / 38.00元 / 平装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar45 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">8.8</span>
+                                        <span class="fleft ml8 color-gray">(103人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26593670/buylinks">
+                                                纸质版 27.90 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="media clearfix">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">4</strong>
+                                    <a href="http://book.douban.com/subject/26576515/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img3.douban.com/spic/s28272925.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26576515/">清明上河图密码 2</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜1天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        冶文彪 / 2015-9-30 / 北京联合出版公司 / 49.90元 / 平装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar45 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">8.3</span>
+                                        <span class="fleft ml8 color-gray">(501人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26576515/buylinks">
+                                                纸质版 32.90 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                        <div class="ebook-link">
+                                            <a target="_blank"
+                                               href="http://read.douban.com/ebook/13311492/?dcs=shire-book-chart&amp;dcm=douban&amp;dct=26576515">
+                                                去看电子版
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="media clearfix">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">5</strong>
+                                    <a href="http://book.douban.com/subject/26609809/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img3.douban.com/spic/s28301035.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26609809/">火车上的女孩</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜1天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        （英）宝拉·霍金斯 / 2015-10 / 中信出版社 / 38.00元 / 平装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar40 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">7.6</span>
+                                        <span class="fleft ml8 color-gray">(187人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26609809/buylinks">
+                                                纸质版 24.30 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="media clearfix">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">6</strong>
+                                    <a href="http://book.douban.com/subject/26586492/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img3.douban.com/spic/s28315660.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26586492/">火星救援</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜51天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        [美] 安迪·威尔 / 2015-10 / 译林出版社 / 38.00 / 平装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar45 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">9.0</span>
+                                        <span class="fleft ml8 color-gray">(3177人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26586492/buylinks">
+                                                纸质版 25.60 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                        <div class="ebook-link">
+                                            <a target="_blank"
+                                               href="http://read.douban.com/ebook/15077436/?dcs=shire-book-chart&amp;dcm=douban&amp;dct=26586492">
+                                                去看电子版
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="media clearfix">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">7</strong>
+                                    <a href="http://book.douban.com/subject/26648238/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img3.douban.com/spic/s28323823.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26648238/">且将生活一饮而尽</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜26天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        李座峰 / 2015-11-1 / 中国华侨出版社 / 36.80 / 平装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar40 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">8.1</span>
+                                        <span class="fleft ml8 color-gray">(504人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26648238/buylinks">
+                                                纸质版 24.00 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                        <div class="ebook-link">
+                                            <a target="_blank"
+                                               href="http://read.douban.com/ebook/15944757/?dcs=shire-book-chart&amp;dcm=douban&amp;dct=26648238">
+                                                去看电子版
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="media clearfix">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">8</strong>
+                                    <a href="http://book.douban.com/subject/26647054/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img3.douban.com/spic/s28322662.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26647054/">小王子（纯美珍藏绘本）</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜33天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        [法] 安东尼·德·圣-埃克苏佩里 / 2015-10 / 中央广播电视大学出版社.国开童媒 / 45.00元 / 精装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar50 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">9.3</span>
+                                        <span class="fleft ml8 color-gray">(1201人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26647054/buylinks">
+                                                纸质版 30.60 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="media clearfix">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">9</strong>
+                                    <a href="http://book.douban.com/subject/26616226/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img3.douban.com/spic/s28301393.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26616226/">小王子</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜20天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        [法]圣埃克斯佩里 / 2015-10 / 武汉出版社 / 29.80 / 平装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar50 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">9.4</span>
+                                        <span class="fleft ml8 color-gray">(979人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26616226/buylinks">
+                                                纸质版 15.80 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="media clearfix last">
+                                <div class="media__img">
+                                    <strong class="fleft green-num-box">10</strong>
+                                    <a href="http://book.douban.com/subject/26652086/">
+                                        <img class="subject-cover" align="left"
+                                             src="http://img3.douban.com/spic/s28328655.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="media__body">
+                                    <h2 class="clearfix">
+                                        <a class="fleft" href="http://book.douban.com/subject/26652086/">你的一切好与坏我都眷恋</a>
+                                        <span class="fright color-lightgray font-normal">
+                                            （上榜13天）
+                                        </span>
+                                        <span class="fright arrow-stay">0</span>
+                                    </h2>
+                                    <p class="subject-abstract color-gray">
+                                        杨西凝 / 2015-11 / 北京联合出版公司 / 29.8 / 平装
+                                    </p>
+                                    <p class="clearfix w250">
+                                        <span class="allstar45 star-img fleft"></span>
+                                        <span class="font-small color-red fleft">8.9</span>
+                                        <span class="fleft ml8 color-gray">(145人评价)</span>
+                                    </p>
+                                    <div class="clearfix w250 color-gray fleft">
+
+
+                                        <span class="buy-info">
+                                            <a href="http://book.douban.com/subject/26652086/buylinks">
+                                                纸质版 21.30 元起
+                                            </a>
+                                        </span>
+
+                                        &emsp;
+
+                                        <span class="cart-info">
+
+                                            <span class="add2cartWidget ">
+                                                <a class="j  add2cart a_show_login"
+                                                   href="http://www.douban.com/register?reason=addbook2cart"
+                                                   rel="nofollow">
+                                                    <span>加入购书单</span>
+                                                </a>
+                                            </span>
+
+
+                                        </span>
+
+                                    </div>
+                                    <div class="ll">
+
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside">
+
+
+                        <h2>
+                            <span class="">新书速递</span>
+                            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+                            <span class="pl">&nbsp;(
+                                <a href="/latest">全部</a>
+                                )
+                            </span>
+
+                        </h2>
+
+
+                        <ul class="entry-list-col3 clearfix">
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/25985982/">
+                                        <img src="http://img3.douban.com/spic/s28350144.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/25985982/">遥远的星辰</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/26658429/">
+                                        <img src="http://img4.douban.com/spic/s28333817.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/26658429/">没有人会因为心碎而绝望</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/26674263/">
+                                        <img src="http://img3.douban.com/spic/s28350384.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/26674263/">司藤</a>
+                                </h2>
+                            </li>
+                            <div class="clearfix rr" style="width:100%"></div>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/26662689/">
+                                        <img src="http://img3.douban.com/spic/s28345162.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/26662689/">画的秘密</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/26358994/">
+                                        <img src="http://img3.douban.com/spic/s28344932.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/26358994/">真幌站前多田便利屋</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/26607921/">
+                                        <img src="http://img3.douban.com/spic/s28336621.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/26607921/">《异世界童话之旅1：许愿魔咒》</a>
+                                </h2>
+                            </li>
+                            <div class="clearfix rr" style="width:100%"></div>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/26671299/">
+                                        <img src="http://img3.douban.com/spic/s28347893.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/26671299/">愿所有爱不负等待</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/26613047/">
+                                        <img src="http://img3.douban.com/spic/s28331203.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/26613047/">时间停止的校园（上、下）</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/26676261/">
+                                        <img src="http://img3.douban.com/spic/s28352500.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/26676261/">曾经，我爱过一个少年</a>
+                                </h2>
+                            </li>
+                            <div class="clearfix rr" style="width:100%"></div>
+                        </ul>
+
+
+                        <h2>
+                            <span class="">豆瓣图书250</span>
+                            <span class="pl">(随机显示)</span>
+                            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+                            <span class="pl">&nbsp;(
+                                <a href="/top250">全部</a>
+                                )
+                            </span>
+
+                        </h2>
+
+
+                        <ul class="entry-list-col3 clearfix">
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/2382705/">
+                                        <img src="http://img3.douban.com/spic/s2868780.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/2382705/">不朽</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/1080370/">
+                                        <img src="http://img3.douban.com/spic/s1127135.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/1080370/">情书</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/4238362/">
+                                        <img src="http://img4.douban.com/spic/s4243447.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/4238362/">送你一颗子弹</a>
+                                </h2>
+                            </li>
+                            <div class="clearfix rr" style="width:100%"></div>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/1059419/">
+                                        <img src="http://img3.douban.com/spic/s1094940.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/1059419/">海边的卡夫卡</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/3369600/">
+                                        <img src="http://img3.douban.com/spic/s3507580.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/3369600/">当我谈跑步时我谈些什么</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/1071241/">
+                                        <img src="http://img4.douban.com/spic/s1074376.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/1071241/">哈利·波特与阿兹卡班的囚徒</a>
+                                </h2>
+                            </li>
+                            <div class="clearfix rr" style="width:100%"></div>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/1863930/">
+                                        <img src="http://img3.douban.com/spic/s1804710.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/1863930/">看不见的城市</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/1529893/">
+                                        <img src="http://img4.douban.com/spic/s1513548.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/1529893/">莲花</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="http://book.douban.com/subject/1205054/">
+                                        <img src="http://img3.douban.com/spic/s1148102.jpg"/>
+                                    </a>
+                                </p>
+                                <h2>
+                                    <a href="http://book.douban.com/subject/1205054/">悲惨世界（上中下）</a>
+                                </h2>
+                            </li>
+                            <div class="clearfix rr" style="width:100%"></div>
+                        </ul>
+
+
+                    </div>
+                    <div class="extra">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="footer">
+
+                <span id="icp" class="fleft gray-link">
+                    &copy; 2005－2015 douban.com, all rights reserved
+                </span>
+
+                <a href="http://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+                <span class="fright">
+                    <a href="http://www.douban.com/about">关于豆瓣</a>
+                    ·
+                    <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                    ·
+                    <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                    ·
+                    <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+
+                    ·
+                    <a href="http://help.douban.com/?app=book" target="_blank">帮助中心</a>
+                    ·
+                    <a href="http://book.douban.com/library_invitation">图书馆合作</a>
+                    ·
+                    <a href="http://www.douban.com/doubanapp/">移动应用</a>
+                    ·
+                    <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+
+            </div>
+
+        </div>
+        <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/53b8c50ba4717839.js"></script>
+        <!-- mako -->
+
+
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+            var p=(('https:' == document.location.protocol) ? 'https' : 'http'), u=p+'://fundin.douban.com/';
+            _paq.push(['setTrackerUrl', u+'piwik']);
+            _paq.push(['setSiteId', '100001']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript';
+            g.defer=true;
+            g.async=true;
+            g.src=p+'://s.doubanio.com/dae/fundin/piwik.js';
+            s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+
+        <script type="text/javascript">
+            var setMethodWithNs = function(namespace) {
+            var ns = namespace ? namespace + '.' : ''
+            , fn = function(string) {
+            if(!ns) {return string}
+            return ns + string
+            }
+            return fn
+            }
+
+            var gaWithNamespace = function(fn, namespace) {
+            var method = setMethodWithNs(namespace)
+            fn.call(this, method)
+            }
+
+            var _gaq = _gaq || []
+            , accounts = [
+            { id: 'UA-7019765-1', namespace: 'douban' }
+            , { id: 'UA-7019765-16', namespace: '' }
+            ]
+            , gaInit = function(account) {
+            gaWithNamespace(function(method) {
+            gaInitFn.call(this, method, account)
+            }, account.namespace)
+            }
+            , gaInitFn = function(method, account) {
+            _gaq.push([method('_setAccount'), account.id])
+
+
+            _gaq.push([method('_addOrganic'), 'google', 'q'])
+            _gaq.push([method('_addOrganic'), 'baidu', 'wd'])
+            _gaq.push([method('_addOrganic'), 'soso', 'w'])
+            _gaq.push([method('_addOrganic'), 'youdao', 'q'])
+            _gaq.push([method('_addOrganic'), 'so.360.cn', 'q'])
+            _gaq.push([method('_addOrganic'), 'sogou', 'query'])
+            if (account.namespace) {
+            _gaq.push([method('_addIgnoredOrganic'), '豆瓣'])
+            _gaq.push([method('_addIgnoredOrganic'), 'douban'])
+            _gaq.push([method('_addIgnoredOrganic'), '豆瓣网'])
+            _gaq.push([method('_addIgnoredOrganic'), 'www.douban.com'])
+            }
+
+            if (account.namespace === 'douban') {
+            _gaq.push([method('_setDomainName'), '.douban.com'])
+            }
+
+            _gaq.push([method('_setCustomVar'), 1, 'responsive_view_mode', 'desktop', 3])
+
+            _gaq.push([method('_setCustomVar'), 2, 'login_status', '0', 2]);
+
+            _gaq.push([method('_trackPageview')])
+            }
+
+            for(var i = 0, l = accounts.length; i< l; i++) {
+            var account = accounts[i]
+            gaInit(account)
+            }
+
+
+            ;(function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+            '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+            })()
+        </script>
+
+
+        <!-- sindar8b-docker-->
+
+
+        <script>var _check_hijack = function () {
+            var _sig = "Bn5UiK72", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (
+            typeof(bid) != "string" && _login ||
+            typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+            location.href += (/\?/.test(location.href)?"&":"?") + (
+            "_r=" + Math.random().toString(16).substring(2));
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

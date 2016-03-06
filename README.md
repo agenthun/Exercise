@@ -32,3 +32,4 @@
     Craps 投骰子游戏
     MaxVisit 最大访客数计算
     MyLog 实现ln(x)函数(偏数值计算)[http://blog.csdn.net/mike190267481/article/details/7404702](http://blog.csdn.net/mike190267481/article/details/7404702)
+    TestSimpleObserver 观察者模式
