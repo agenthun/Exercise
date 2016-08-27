@@ -33,3 +33,7 @@
     MaxVisit 最大访客数计算
     MyLog 实现ln(x)函数(偏数值计算)[http://blog.csdn.net/mike190267481/article/details/7404702](http://blog.csdn.net/mike190267481/article/details/7404702)
     TestSimpleObserver 观察者模式
+
+#常见细节问题
+    TestNewClass 测试New一个类(主要结果: 定义类中有public变量,有public方法对其修改,在main方法中new这个类,调用public方法。并不改变这个public变量)
+    TestExternsClass 测试类的继承(顺序: 父类static属性、代码块 -> 子类static属性、代码块 -> 父类非static属性、代码块、构造函数 -> 子类非static属性、代码块、构造函数)
