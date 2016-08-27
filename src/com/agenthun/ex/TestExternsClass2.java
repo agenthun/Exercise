@@ -8,23 +8,21 @@ package com.agenthun.ex;
  * public的变量, 输出结果都为"6"
  * private的变量结果见 TestExternsClass2.class
  */
-public class TestNewClass {
-    public String str = "6";
-    public StringBuilder sb = new StringBuilder("6");
+public class TestExternsClass2 {
+    private int count;
 
     public static void main(String[] args) {
-        TestNewClass sv = new TestNewClass();
-        sv.change(sv.str);
-        sv.change(sv.sb);
-        System.out.println(sv.str);
-        System.out.println(sv.sb);
+        TestExternsClass2 test = new TestExternsClass2(88);
+        System.out.println(test.count);
+        test.change(6);
+        System.out.println(test.count);
     }
 
-    public void change(String str) {
-        str = "10";
+    TestExternsClass2(int a) {
+        count = a;
     }
 
-    public void change(StringBuilder str) {
-        str = new StringBuilder("10");
+    public void change(int x) {
+        count = x;
     }
 }

@@ -35,5 +35,6 @@
     TestSimpleObserver 观察者模式
 
 #常见细节问题
-    TestNewClass 测试New一个类(主要结果: 定义类中有public变量,有public方法对其修改,在main方法中new这个类,调用public方法。并不改变这个public变量)
+    TestNewClass 测试New一个类(主要结果: 定义类中有public变量,有public方法对其修改,在main方法中new这个类,调用public方法。并不改变这个public变量; 若是private变量, 则有改变这个变量)
     TestExternsClass 测试类的继承(顺序: 父类static属性、代码块 -> 子类static属性、代码块 -> 父类非static属性、代码块、构造函数 -> 子类非static属性、代码块、构造函数)
+    TestExternsClass2 联合测试New一个类、类的继承
